@@ -1,0 +1,14 @@
+Title:
+
+Predict My Future Based on My Current Actions
+
+Prompt:
+
+Analyze my current lifestyle, habits, finances, work, health, learning, and relationships.
+
+Show me:
+
+* Where I will likely be in 5 years if nothing changes.
+* Where I could be in 5 years if I improve my habits by just 1% every week.
+
+Compare both futures and identify the highest ROI actions I should take immediately.

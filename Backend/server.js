@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import { connectDB } from './config/db.js';
 dotenv.config()
 
-import userRoutes from './routes/userRoutes.js'
+import userRouter from './routes/userRoutes.js';
 
 const app = express()
 const port = 3000;
@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
   res.send("API is working . . .")
 })
 
-app.use('/api/auth/',userRoutes)
+app.use('/api/user',userRouter)
 
 connectDB().then(app.listen(port, ()=>{
   console.log("Sever is running on port : ", port)
